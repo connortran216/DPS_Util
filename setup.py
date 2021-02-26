@@ -16,7 +16,7 @@ setup(name='dpsutil',
       install_requires=[
             'numpy',
             'redis',
-            'confluent_kafka>=1.4.1',
+            'confluent_kafka==1.5.0',
             'lz4',
             'blosc==1.9.1',
             'ffmpeg-python==0.2.0',
